@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception - Movie Details</title>
+    <link rel="stylesheet" href="/movie-details/movie-styles.css">
+</head>
+<body>
+    
+    <section id="trailer">
+        <h1>Inception</h1>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/YoHD9XEInc0" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="synopsis">
+        <h2>Synopsis</h2>
+        <p>
+            Dom Cobb (Leonardo DiCaprio) is a thief who steals corporate secrets through dream-sharing technology. 
+            He is offered a chance to have his criminal history erased if he can perform "inception" (planting an idea in someone's mind).
+        </p>
+    </section>
+
+    <section id="comments">
+        <h2>User Reviews</h2>
+        <div class="user-comment">
+            <p><strong>User123</strong> ★★★★★</p>
+            <p>Mind-blowing plot! Nolan's best work.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>MovieLover</strong> ★★★★☆</p>
+            <p>Great visuals, but the ending confused me.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>CinemaFan</strong> ★★★☆☆</p>
+            <p>Good, but overhyped.</p>
+        </div>
+    </section>
+
+    <section id="submit-comment">
+        <h2>Submit Your Review</h2>
+        <form action="#" method="post">
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">★★★★★ (5)</option>
+                <option value="4">★★★★☆ (4)</option>
+                <option value="3">★★★☆☆ (3)</option>
+                <option value="2">★★☆☆☆ (2)</option>
+                <option value="1">★☆☆☆☆ (1)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="/home.html">Back to Home</a>
+    </footer>
+</body>
+</html>

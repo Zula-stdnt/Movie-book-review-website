@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALL-E - Movie Details</title>
+    <link rel="stylesheet" href="/movie-details/movie-styles.css">
+</head>
+<body>
+    <section id="trailer">
+        <h1>WALL-E</h1>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/CZ1CATNbXg0" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="synopsis">
+        <h2>Synopsis</h2>
+        <p>
+            In the 29th century, WALL-E (Waste Allocation Load Lifter Earth-Class), a small waste-collecting robot, 
+            inadvertently embarks on a space journey that will decide the fate of humanity. 
+            Along the way, he meets sleek probe robot EVE and discovers a newfound purpose.
+        </p>
+    </section>
+
+    <section id="features">
+        <h3>Notable Aspects:</h3>
+        <ul>
+            <li>First 40 minutes contain almost no dialogue</li>
+            <li>Won the Academy Award for Best Animated Feature</li>
+            <li>Environmental themes about consumerism and sustainability</li>
+        </ul>
+    </section>
+
+    <section id="comments">
+        <h2>User Reviews</h2>
+        <div class="user-comment">
+            <p><strong>PixarLover</strong> ★★★★★</p>
+            <p>Pixar's most poetic film. WALL-E's eyes say more than words ever could.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>SciFiFan</strong> ★★★★☆</p>
+            <p>Brilliant social commentary disguised as a robot love story.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>AnimationBuff</strong> ★★★★★</p>
+            <p>A masterpiece of visual storytelling. The Hello Dolly scenes wreck me every time.</p>
+        </div>
+    </section>
+
+    <section id="submit-comment">
+        <h2>Submit Your Review</h2>
+        <form action="#" method="post">
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">★★★★★ (5)</option>
+                <option value="4">★★★★☆ (4)</option>
+                <option value="3">★★★☆☆ (3)</option>
+                <option value="2">★★☆☆☆ (2)</option>
+                <option value="1">★☆☆☆☆ (1)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <a href="/home.html">Back to Home</a>
+        <p>Fun Fact: WALL-E's design was inspired by binoculars and a trash compactor!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineLit Critic - Login</title>
+    <link rel="stylesheet" href="index-styles.css">
+</head>
+<body>
+    
+    <section id="login">
+        <h1>CineLit Critic</h1>
+        <form action="home.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="welcome">
+        <h1>Hello, <span id="display-username">User</span>!</h1>
+        <p>Welcome back to your favorite movie and book collection.</p>
+        <a href="#login">Go back</a>
+    </section>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight - Movie Details</title>
+    <link rel="stylesheet" href="/movie-details/movie-styles.css">
+</head>
+<body>
+    
+    <section id="trailer">
+        <h1>The Dark Knight</h1>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/EXeTwQWrcwY" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="synopsis">
+        <h2>Synopsis</h2>
+        <p>
+            Batman (Christian Bale) teams with Commissioner Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart) to dismantle organized crime in Gotham, 
+            but their efforts are derailed by the anarchic Joker (Heath Ledger in an Oscar-winning performance).
+        </p>
+    </section>
+
+    
+    <section id="comments">
+        <h2>User Reviews</h2>
+        <div class="user-comment">
+            <p><strong>DC_Fanatic</strong> ★★★★★</p>
+            <p>Heath Ledger's Joker is cinematic perfection. Nolan redefined superhero movies.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>MovieBuff2024</strong> ★★★★☆</p>
+            <p>Thrilling from start to finish, though the third act drags slightly.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>FilmCritic101</strong> ★★★★★</p>
+            <p>The gold standard for comic book adaptations.</p>
+        </div>
+    </section>
+
+    
+    <section id="submit-comment">
+        <h2>Submit Your Review</h2>
+        <form action="#" method="post">
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">★★★★★ (5)</option>
+                <option value="4">★★★★☆ (4)</option>
+                <option value="3">★★★☆☆ (3)</option>
+                <option value="2">★★☆☆☆ (2)</option>
+                <option value="1">★☆☆☆☆ (1)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <a href="/home.html">Back to Home</a>
+    </footer>
+</body>
+</html>

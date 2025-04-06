@@ -1,0 +1,201 @@
+body {
+    background: url('https://c4.wallpaperflare.com/wallpaper/448/174/357/neon-4k-hd-best-for-desktop-wallpaper-preview.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 46, 0.85);
+    z-index: -1;
+}
+
+header {
+    background: rgba(26, 26, 46, 0.9);
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+}
+
+.header-text h1 {
+    color: #e94560;
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-text p {
+    margin: 0;
+    color: #ddd;
+    font-size: 0.9rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+nav a {
+    color: #0fceff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background: rgba(15, 206, 255, 0.2);
+    color: #fff;
+}
+
+header form {
+    max-width: 600px;
+    margin: 1rem auto;
+    display: flex;
+}
+
+header input {
+    flex: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+header button {
+    background: linear-gradient(45deg, #e94560, #ff6b81);
+    color: white;
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header button:hover {
+    background: linear-gradient(45deg, #ff6b81, #e94560);
+}
+
+section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #0fceff;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #e94560;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card h3 {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #ddd;
+}
+
+footer#about-us {
+    background: rgba(26, 26, 46, 0.95);
+    padding: 3rem 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer#about-us h2 {
+    color: #e94560;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #0fceff;
+    padding-bottom: 0.5rem;
+}
+
+footer#about-us p {
+    color: #ddd;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+footer#about-us ul {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+footer#about-us li {
+    margin: 0.8rem 0;
+    color: orange;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+footer#about-us li::before {
+    content: "•";
+    color: #0fceff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}

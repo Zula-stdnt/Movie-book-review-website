@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forrest Gump - Movie Details</title>
+    <link rel="stylesheet" href="/movie-details/movie-styles.css">
+</head>
+<body>
+    <section id="trailer">
+        <h1>Forrest Gump</h1>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/bLvqoHBptjg" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="synopsis">
+        <h2>Synopsis</h2>
+        <p>
+            Forrest Gump (Tom Hanks), a man with a low IQ but good intentions, accidentally influences key historical events in 20th-century America. 
+            His love for childhood friend Jenny (Robin Wright) endures through decades of social change.
+        </p>
+    </section>
+
+    <section id="comments">
+        <h2>User Reviews</h2>
+        <div class="user-comment">
+            <p><strong>MovieHistorian</strong> ★★★★★</p>
+            <p>"Life is like a box of chocolates" - A perfect blend of humor and heartbreak.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>ClassicFilmFan</strong> ★★★★☆</p>
+            <p>Hanks' best performance, though the runtime feels long.</p>
+        </div>
+        <div class="user-comment">
+            <p><strong>90sKid</strong> ★★★★★</p>
+            <p>Nostalgic, profound, and endlessly quotable.</p>
+        </div>
+    </section>
+
+    <section id="submit-comment">
+        <h2>Submit Your Review</h2>
+        <form action="#" method="post">
+            <label for="user-name">Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">★★★★★ (5)</option>
+                <option value="4">★★★★☆ (4)</option>
+                <option value="3">★★★☆☆ (3)</option>
+                <option value="2">★★☆☆☆ (2)</option>
+                <option value="1">★☆☆☆☆ (1)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section id="historical-moments">
+        <h3>Historical Events Featured:</h3>
+        <ul>
+            <li>Vietnam War</li>
+            <li>Watergate Scandal</li>
+            <li>Birth of Apple Computers</li>
+            <li>Elvis Presley's Dance Moves</li>
+        </ul>
+    </section>
+
+   
+    <footer>
+        <a href="/home.html">Back to Home</a>
+    </footer>
+</body>
+</html>
