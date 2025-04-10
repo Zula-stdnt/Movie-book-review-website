@@ -1,8 +1,6 @@
 # 🎬📚 CineLit Critic  
 **A Static Web Platform for Movie & Book Reviews**  
 
-![CineLit Critic Preview](https://via.placeholder.com/800x400.png?text=CineLit+Critic+Screenshot)
-
 ## 🌟 About  
 **CineLit Critic** is a responsive, JavaScript-free website designed for enthusiasts to explore and review films and books in one unified space. Built with pure HTML and CSS, it demonstrates how static web technologies can create an engaging user experience for media discussion.  
 
